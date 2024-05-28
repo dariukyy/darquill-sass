@@ -18,8 +18,8 @@ function Page() {
           in seconds.
         </h1>
         <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg">
-          Quill allows you to have conversations with any PDF document. Simply
-          upload your file and start questions right away.
+          Darquill allows you to have conversations with any PDF document.
+          Simply upload your file and start questions right away.
         </p>
         <Link
           className={buttonVariants({
@@ -90,7 +90,8 @@ function Page() {
               Start chatting in minutes
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Chatting to your PDF files has never been easier than with Quill.
+              Chatting to your PDF files has never been easier than with
+              Darquill.
             </p>
           </div>
         </div>
@@ -133,7 +134,7 @@ function Page() {
                 Start asking questions
               </span>
               <span className="mt-2 text-zinc-700">
-                It&apos;s that simple. Try out Quill today - it really takes
+                It&apos;s that simple. Try out Darquill today - it really takes
                 less than a minute.
               </span>
             </div>
