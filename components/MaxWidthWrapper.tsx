@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { cn } from "../_lib/utils";
+import { cn } from "../app/_lib/utils";
 
 function MaxWidthWrapper({
   className,
