@@ -53,7 +53,6 @@ function UploadDropzone() {
 
         // handle file uploading
         const res = await startUpload(acceptedFile);
-        console.log("res", res);
 
         if (!res) {
           return toast({
@@ -64,10 +63,8 @@ function UploadDropzone() {
         }
 
         const [fileResponse] = res;
-        console.log("fileResponse", fileResponse);
 
         const key = fileResponse?.key;
-        console.log("key", key);
 
         if (!key) {
           return toast({
