@@ -23,7 +23,7 @@ function ChatWrapper({ fileId }: ChatWrapperProps) {
         } else {
           return status.status === "SUCCESS" || status.status === "FAILED"
             ? false
-            : 501;
+            : 500;
         }
       },
     }
